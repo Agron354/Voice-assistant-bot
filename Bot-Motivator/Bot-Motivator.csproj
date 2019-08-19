@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8757CA3E-0BEE-4CC0-916A-3FC245C380D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bot_Motivator</RootNamespace>
+    <AssemblyName>Bot-Motivator</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PoSPositive.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Speech\v11.0\Assembly\Microsoft.Speech.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DiaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiaryForm.Designer.cs">
+      <DependentUpon>DiaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelloForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelloForm.Designer.cs">
+      <DependentUpon>HelloForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Talking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Talking.Designer.cs">
+      <DependentUpon>Talking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TalkingBad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TalkingBad.Designer.cs">
+      <DependentUpon>TalkingBad.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DiaryForm.resx">
+      <DependentUpon>DiaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelloForm.resx">
+      <DependentUpon>HelloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Talking.resx">
+      <DependentUpon>Talking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TalkingBad.resx">
+      <DependentUpon>TalkingBad.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4167273-business-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Positive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\PoSPositive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Negative.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zeasbIs_XhM.jpg" />
+    <None Include="Resources\kavaynye-kotiki-kartinki-dlya-srisovki-8.jpg" />
+    <None Include="Resources\576552d6e73f015563cb97a3.png" />
+    <None Include="bin\Debug\Картинки под курсовой\0457948e46b87c4.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\videoblocks-blue-abstract-corporate-grunge-waves-motion-background-video-animation-ultra-hd-4k-3840x2160-srjoecgyz-thumbnail-full01-on-blue-abstract.png" />
+    <None Include="bin\Debug\Картинки под курсовой\ada6cfb3a16edc1ee1107008dfbd79cd.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\Light-blue-wavy-abstract-background-vector-02.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full06.png" />
+    <None Include="bin\Debug\Картинки под курсовой\8cEjz8zKi.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\260322.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\_1128-30.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\download-fashion-background-vector-material-dynamic-lines.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\blue-and-white-abstract-background-8.jpg" />
+    <None Include="bin\Debug\withoutBACK.png" />
+    <None Include="bin\Debug\NegativeNOBACK.png" />
+    <None Include="bin\Debug\Картинки под курсовой\abstrait-bleu-formes-geometriques_1017-15490.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\blue-waves-wallpapers-55341-752016.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\orig.png" />
+    <None Include="bin\Debug\timetable.png" />
+    <None Include="bin\Debug\Картинки под курсовой\will.png" />
+    <None Include="bin\Debug\Картинки под курсовой\1.png" />
+    <None Include="bin\Debug\1.png" />
+    <None Include="bin\Debug\NegativeNOBACK1.png" />
+    <None Include="bin\Debug\rovno.png" />
+    <None Include="bin\Debug\Картинки под курсовой\blue-background-abstract-wallpapers-55298-2044051.png" />
+    <None Include="bin\Debug\Картинки под курсовой\7e1bdc48673b98d927607ff0b5739042.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\94895011-abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustrati.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\123.jpg" />
+    <None Include="bin\Debug\Картинки под курсовой\kcMKLrg6i.png" />
+    <None Include="bin\Debug\1234.png" />
+    <Content Include="PoSPositive.ico" />
+    <None Include="Resources\psd-light-blue-flat-dotted-line-background-heypik-8XU43VE.jpg" />
+    <None Include="Resources\Light-blue-wavy-abstract-background-vector-02.jpg" />
+    <None Include="Resources\94895011-abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustrati.jpg" />
+    <None Include="Resources\abstrait-bleu-formes-geometriques_1017-15490.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

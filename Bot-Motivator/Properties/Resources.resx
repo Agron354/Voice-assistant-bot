@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full065" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8cEjz8zKi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\8cEjz8zKi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rovno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rovno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12341" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0457948e46b87c41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\0457948e46b87c4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-waves-wallpapers-55341-752016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\blue-waves-wallpapers-55341-752016.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NegativeNOBACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\NegativeNOBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kavaynye-kotiki-kartinki-dlya-srisovki-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kavaynye-kotiki-kartinki-dlya-srisovki-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0457948e46b87c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\0457948e46b87c4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7e1bdc48673b98d927607ff0b5739042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\7e1bdc48673b98d927607ff0b5739042.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NegativeNOBACK1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\NegativeNOBACK1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download-fashion-background-vector-material-dynamic-lines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\download-fashion-background-vector-material-dynamic-lines.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="will" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\will.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="260322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\260322.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ada6cfb3a16edc1ee1107008dfbd79cd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\ada6cfb3a16edc1ee1107008dfbd79cd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timetable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\timetable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-and-white-abstract-background-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\blue-and-white-abstract-background-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full063" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="withoutBACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\withoutBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full064" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ada6cfb3a16edc1ee1107008dfbd79cd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\ada6cfb3a16edc1ee1107008dfbd79cd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="94895011-abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustrati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\94895011-abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustrati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Negative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Negative.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zeasbIs_XhM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zeasbIs_XhM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12343" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light-blue-wavy-abstract-background-vector-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Light-blue-wavy-abstract-background-vector-02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8cEjz8zKi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\8cEjz8zKi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\123.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12342" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kcMKLrg6i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\kcMKLrg6i.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoSPositive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\PoSPositive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="576552d6e73f015563cb97a3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\576552d6e73f015563cb97a3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Positive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Positive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1128-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\_1128-30.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download-fashion-background-vector-material-dynamic-lines1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\download-fashion-background-vector-material-dynamic-lines.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-background-abstract-wallpapers-55298-2044051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\blue-background-abstract-wallpapers-55298-2044051.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="videoblocks-blue-abstract-corporate-grunge-waves-motion-background-video-animation-ultra-hd-4k-3840x2160-srjoecgyz-thumbnail-full01-on-blue-abstract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\videoblocks-blue-abstract-corporate-grunge-waves-motion-background-video-animation-ultra-hd-4k-3840x2160-srjoecgyz-thumbnail-full01-on-blue-abstract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8cEjz8zKi3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\8cEjz8zKi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstrait-bleu-formes-geometriques_1017-15490" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstrait-bleu-formes-geometriques_1017-15490.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4167273-business-wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4167273-business-wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstrait-bleu-formes-geometriques_1017-154901" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\abstrait-bleu-formes-geometriques_1017-15490.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NegativeNOBACK2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\NegativeNOBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psd-light-blue-flat-dotted-line-background-heypik-8XU43VE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\psd-light-blue-flat-dotted-line-background-heypik-8XU43VE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\abstract-cyan-blue-stripes-motion-background-video-animation-ultra-hd-4k-3840x2160_scyvvwote_thumbnail-full06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8cEjz8zKi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\8cEjz8zKi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light-blue-wavy-abstract-background-vector-021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\Light-blue-wavy-abstract-background-vector-02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="94895011-abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustrati1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\94895011-abstract-technology-background-hi-tech-communication-concept-innovation-background-vector-illustrati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="videoblocks-blue-abstract-corporate-grunge-waves-motion-background-video-animation-ultra-hd-4k-3840x2160-srjoecgyz-thumbnail-full01-on-blue-abstract1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\videoblocks-blue-abstract-corporate-grunge-waves-motion-background-video-animation-ultra-hd-4k-3840x2160-srjoecgyz-thumbnail-full01-on-blue-abstract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Картинки под курсовой\orig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12344" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\1234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
